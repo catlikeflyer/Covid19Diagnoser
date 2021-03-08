@@ -16,3 +16,4 @@ def load():
     st.image(image, use_column_width=True)
     st.markdown('[Link a simulacion](https://www.tinkercad.com/things/cPxAzSaZ0Y0-dazzling-maimu-wolt/editel?sharecode=M9-cPAjPjf3NwASxy7KPZNyBXYWOb8MoUrl8uTKui9M)')
     st.markdown('[Link a video](https://drive.google.com/drive/folders/185kL27CYBdKBynTVJ3fK7Xng_iWLSaYp?usp=sharing)')
+    st.markdown('[Link a repositorio](https://github.com/dollis2002/Covid19Diagnoser)')
