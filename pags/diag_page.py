@@ -11,8 +11,8 @@ def load():
     F = st.checkbox("¿Tiene dolor de cabeza?")
     G = st.checkbox("¿Tiene dolor de garganta?")
     H = st.checkbox("¿Tiene pérdida del olfato?")
-    I = st.number_input('Inserte nivel de saturación de oxígeno:  ', 1, 100) < 89
-    J = st.number_input('Inserte su temperatura corporal: ', 30, 45) > 37.5
+    I = st.number_input('Inserte nivel de saturación de oxígeno:  ', 1, 100, step=0.1) < 89
+    J = st.number_input('Inserte su temperatura corporal: ', 30, 45, step=0.1) > 37.5
 
     covid = (D and E) or (C and E) or (C and H) or (B and E) or (B and C) or (A and B) or (B and G and H) or (A and G and H) or (A and E)
     hospital = I or J
