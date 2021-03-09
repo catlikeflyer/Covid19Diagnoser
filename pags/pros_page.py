@@ -18,8 +18,9 @@ def load():
         Cabeza: I \n
         Temperatura real > 38.5: J \n
     """)
+    
+    st.subheader("COVID-19")
     st.write("""
-        COVID-19:\n
         ABCDE+DE+CE+CF+EB+BC+CFA+AB+GCF+GBF+GAF+AE \n
         Ley de absorción\n
         DE+CE+CF+CF+EB+BC+CFA+AB+GCF+GBF+GAF+AE\n
@@ -28,12 +29,18 @@ def load():
         Ley de absorción → Máxima simplificación\n
         DE+CE+CF+EB+BC+AB+GBF+GAF+AE\n
         \n
-        Hospitalización = 
+    """)
+
+    st.subheader("Hospitalización")
+    st.write("""
         H + JE + E \n
         Ley de absorción → Máxima simplificación\n
         H+E\n
         \n
-        No acudir con médico =\n
+    """)
+    
+    st.subheader("No acudir con médico")
+    st.write("""
         !A !B !C !D !E !I !G !F +  !A !B !C !D !E !I !G F + !A !B !C !D !E I !G !F + !A !B !C D !E !I !G !F + !A B !C !D !E !I !G !F + !A B !C !D !E !I !G F + !J \n
         Ley distributiva\n
         !A !B !C !D !E !I !G (!F + F) + !A !B !C !D !E I !G !F + !A !B !C D !E !I !G !F + !A B !C !D !E !I !G !F + !A B !C !D !E !I !G F + !J \n
