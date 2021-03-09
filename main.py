@@ -4,6 +4,7 @@ import pags.info_page
 import pags.data_page
 import pags.proto_page
 import pags.viz_page
+import pags.pros_page
 
 def main():
     st.title('DiaCoMoC')
@@ -16,6 +17,7 @@ def main():
     pages = {
         "Sobre el proyecto": pags.info_page,
         "Diagnóstico en linea": pags.diag_page,
+        "Proceso de diagnóstico": pags.pros_page,
         "Prototipo": pags.proto_page,
         "Monitoreo con datos ya generados": pags.data_page,
         "Monitoreo con reporte nuevo": pags.viz_page
